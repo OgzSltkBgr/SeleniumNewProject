@@ -23,7 +23,7 @@ public class Odev01 {
                     " Dogru title :"+driver.getTitle());
         }
 
-       //3.Sayfa URL’inin “facebook” kelimesi icerdigini dogrulayin, icermiyorsa “actual” URL’i yazdirin.
+       //3.Sayfa URL’inin “facebook” kelimesi icerdigini dogrulayin, icermiyorsa “actual” URL’i yazdirin
         String sayfaUrlsi=driver.getCurrentUrl();
 
         if (sayfaUrlsi.contains(arananKelime)){
