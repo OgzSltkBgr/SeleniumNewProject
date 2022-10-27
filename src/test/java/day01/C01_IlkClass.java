@@ -16,7 +16,7 @@ public class C01_IlkClass {
         driver.get("https://www.amazon.com");
         System.out.println(driver.getTitle()); // Gidilen sitenin başlığını yazdırır.
         System.out.println(driver.getCurrentUrl());// Gidilen sayfanın URL'inin getirir
-        System.out.println(driver.getPageSource());// Kaynak kodlarını getirir.
+        System.out.println(driver.getPageSource());//  Kaynak kodlarını getirir.
         driver.close();
 
     }
